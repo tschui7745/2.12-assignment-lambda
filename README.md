@@ -12,7 +12,9 @@ The resource-based policy on the Lambda function grants S3 Bucket permission to 
 5.	If the function is needed to upload a file into an S3 bucket, describe (i.e no need for the actual policies)
 
 a.	What is the needed update on the execution role?
+
 Update the Lambda function's execution role to allow it to upload objects to the S3 bucket.
 
 b.	What is the new resource-based policy that needs to be added? To which resource?
+
 Add a resource-based policy to the S3 bucket to allow the Lambda function’s execution role to upload files to the bucket.
